@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topBar{
+    margin: 0 auto;
+    width: 70%;
+    padding: 25px;
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+h1{
+    vertical-align: middle;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50pt;
+}
+#mainContent{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.someUser{
+    display: block;
+    width: 500px;
+    height: 100px;
+    border: solid 4px black;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    width: 75px;
+    height: 30px;
+}
+.row2 {
+    margin-top: 30px;
+}
+#user{
+    height: 200px;
+    width: 150px;
+    border: solid 4px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+img {
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    
+}
+.name{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.likes{
+    display: flex;
+    gap: 20px;
+}
+button{
+    background-color: yellow;
+    box-shadow: 3px 3px 0px 0px black;
+}
